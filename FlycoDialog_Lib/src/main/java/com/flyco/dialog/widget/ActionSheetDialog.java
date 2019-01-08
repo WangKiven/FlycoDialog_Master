@@ -189,7 +189,8 @@ public class ActionSheetDialog extends BottomBaseDialog<ActionSheetDialog> {
         mTvCancel.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                dismiss();
+//                dismiss();
+                cancel();
             }
         });
 
