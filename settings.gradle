@@ -1,2 +1,2 @@
-include ':app'
-include ':FlycoDialog_Lib'
+include ':app', ':FlycoDialog_Lib'
+//include ':FlycoDialog_Lib'
