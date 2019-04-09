@@ -285,6 +285,7 @@ public abstract class BaseDialog<T extends BaseDialog<T>> extends Dialog {
             window.setGravity(gravity);
             params.x = x;
             params.y = y;
+//            window.setAttributes(params);
         }
 
         show();
